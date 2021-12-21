@@ -1,0 +1,30 @@
+.PreviewContainer{
+ width: 95%;
+ margin: auto;
+ background-color: #f7e6e2;
+ 
+}
+.PreviewContainer img{
+width: 100%;
+height: 60vh;
+}
+.MusicPlay{
+display: block;
+text-align: center;
+}
+.Controls{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.Controls i{
+font-size: 35px;
+}
+.Controls .fa-play-circle{
+font-size: 35px;
+}
+.Controls .fa-step-forward{
+font-size: 25px;
+}

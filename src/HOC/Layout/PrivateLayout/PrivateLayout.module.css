@@ -1,0 +1,51 @@
+.HeaderCont {
+    height: 150px;
+  }
+  .Layout {
+    display: flex;
+    background: #ededed;
+    min-height: 700px;
+  }
+  .SidebarCont {
+    flex: 3;
+    margin-right: 18px;
+  }
+  
+  .PageContent {
+    flex: 9;
+    padding: 0px 0px;
+  }
+  
+  .PageEmptyPlaceholder {
+    text-align: center;
+    position: relative;
+    top: 150px;
+    font-size: 80px;
+    color: #ccc;
+    font-weight: bold;
+  }
+  
+  /* .PageHeaderCont {
+    height: 80px;
+  } */
+  /* .PageHeader {
+    position: fixed;
+    top: 90px;
+    background: #ededed;
+    padding: 20px 60px;
+    height: 50px;
+    width: 100%;
+  } */
+  /* .PageTitle {
+    color: #022b41;
+    margin: 0;
+    position: relative;
+    top: 10px;
+    font-size: 20px;
+  } */
+  .Body {
+    padding: 30px 30px;
+  }
+  @media screen and (max-width: 420px){
+    
+  }

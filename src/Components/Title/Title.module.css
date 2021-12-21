@@ -1,0 +1,18 @@
+.SubTitles{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.SubTitles h3{
+    color: #CECEDC;
+    font-weight: 600;
+
+}
+.Line{
+    width: 50%;
+    background-color: 5px solid #000;
+}
+.ArrowLeft,
+.ArrowRight{
+   color: #CECEDC;
+}

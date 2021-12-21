@@ -1,0 +1,67 @@
+.NavbarCont{
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+margin-top: 30px;
+}
+.NavMenu{
+  list-style: none;
+  margin: auto;
+  padding: 0;
+  
+}
+.NavMenu li{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 8px 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.SidebarLink{
+  color: #ABA7EC;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+  padding: 13px 10px;
+  font-size: 16px;
+  font-family: 'lato',sans-serif;
+  font-weight: 600;
+}
+.SidebarLink:hover{
+  background: linear-gradient(rgb(119,114,221),rgb(107,101,218),rgb(88,80,217));
+}
+li a:hover{
+  color: #fff;
+}
+
+i{ 
+  width: 20px;
+  height: 20px;
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 750px){
+  .NavbarCont{
+    margin: auto;
+  }
+  .SidebarLink{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+  }
+  .SidebarLink span{
+    display: none;
+  }
+  .SidebarLink li i{
+    font-size: 30px;
+    padding: 20px auto;
+  }
+  .SidebarLink:hover{
+    background: linear-gradient(rgb(119,114,221),rgb(107,101,218),rgb(88,80,217));
+  }
+}

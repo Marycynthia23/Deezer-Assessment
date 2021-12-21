@@ -1,0 +1,36 @@
+.UserCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.Avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: #F4CFC9;
+    border-radius: 50%;
+}
+.Avatar img{
+    width: 100%;
+    border-radius: 50%;
+
+}
+.UserName{
+    color:#fff;
+    padding-top: 20px;
+    font-weight: 500;
+}
+@media screen and (max-width: 420px){
+    .Avatar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60px;
+        height: 60px;
+        background-color: #F4CFC9;
+        border-radius: 50%;
+    }
+}
