@@ -1,16 +1,9 @@
 .SidebarCont {
     background: #574FD8;
-    /* border-radius: 20px; */
     box-shadow: 0 0 5px #ccc;
     position: fixed;
     width: 22%;
     top: 0px;
-    /* left: 50px; */
-    min-height: 700px;
+    min-height: 100vh;
   }
-  
-  /* .Divider { */
-    /* border-top: 1px solid #ccc; */
-    /* margin-top: 20px; */
-  /* } */
   

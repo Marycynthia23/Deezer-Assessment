@@ -2,10 +2,14 @@
  width: 95%;
  margin: auto;
  background-color: #f7e6e2;
+ padding-bottom: 30px;
  
 }
+.mobile{
+    display: none;
+}
 .PreviewContainer img{
-width: 100%;
+width: 50%;
 height: 60vh;
 }
 .MusicPlay{
@@ -27,4 +31,20 @@ font-size: 35px;
 }
 .Controls .fa-step-forward{
 font-size: 25px;
+}
+@media screen and (max-width: 750px){
+.web{
+display: none;
+} 
+.PreviewContainer img{
+    width: auto;
+    height: auto;
+    }
+    .mobile{
+        display: block;
+    }
+    .Controls{
+    position: fixed;
+    bottom: 0;
+    }
 }

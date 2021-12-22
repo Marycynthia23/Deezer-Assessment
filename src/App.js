@@ -5,6 +5,7 @@ import { Discover } from './Components';
 import {Favourites} from './Components';
 import {Search} from './Components';
 import {PlayLists} from './Components'
+import { MusicPreview } from './Components/MusicPreview';
 
 
 function App() {
@@ -16,17 +17,20 @@ function App() {
         <Route path="/">
        <Discover/> 
         </Route>
-        <Route path="/favourites">
-       <Favourites/> 
-        </Route>
         <Route path="/search">
        <Search/> 
+        </Route>
+        <Route path="/favourites">
+       <Favourites/> 
         </Route>
         <Route path="/playlist">
        <PlayLists/> 
         </Route>
         <Route path="/chart">
        <PlayLists/> 
+        </Route>
+        <Route path="/musicpreview">
+       <MusicPreview/> 
         </Route>
       </Switch>
       </BrowserRouter>
