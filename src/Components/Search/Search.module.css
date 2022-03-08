@@ -1,0 +1,75 @@
+.SearchContainer{
+ /* display: flex;
+ justify-content:center;
+ align-items: center; */
+ margin: auto;
+ padding: 2% 2%;
+}
+.SearchInput{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    padding: 5px 20px;
+
+   }
+   .SearchInputContainer{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
+   }
+   .SearchContainer input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  .SearchContainer .SearchInputContainer button {
+    padding: 8px 10px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  .CardDisplay{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: auto;
+    white-space: nowrap;
+    width: 100%;
+    height: auto;
+    row-gap: 30px;
+
+}
+.Card {
+    transition: 0.3s;
+    width: 150px;
+  }
+  .Card img{
+      width: 100%;
+  }
+  .Text{
+    color:#39383D;
+    text-align: center;
+    padding: 2px 16px;
+
+  }
+  h6{
+      margin: auto;
+      text-align: center;
+      font-size: 14px;
+  }
+  @media screen and (max-width: 420px){
+    .CardContainer{
+      flex-wrap: wrap;
+    
+    }
+    
+}
+  

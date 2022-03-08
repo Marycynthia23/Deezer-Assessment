@@ -1,7 +1,8 @@
 .PreviewContainer{
  width: 95%;
  margin: auto;
- background-color: #f7e6e2;
+ /* background-color: #f7e6e2; */
+ padding-top: 50px;
  padding-bottom: 30px;
  
 }
@@ -9,12 +10,15 @@
     display: none;
 }
 .PreviewContainer img{
-width: 50%;
-height: 60vh;
+    max-width: 40%;
+    height: auto;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .MusicPlay{
-display: block;
-text-align: center;
+    display: block;
+    text-align: center;
 }
 .Controls{
     display: flex;
@@ -33,18 +37,23 @@ font-size: 35px;
 font-size: 25px;
 }
 @media screen and (max-width: 750px){
-.web{
+/* .web{
 display: none;
-} 
+}  */
 .PreviewContainer img{
     width: auto;
     height: auto;
     }
-    .mobile{
+    /* .mobile{
         display: block;
-    }
+    } */
     .Controls{
     position: fixed;
     bottom: 0;
+    left: 25%;
+    border: 1px solid #ededed;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+    padding: 10px 100px;
+    max-width: 100%;
     }
 }

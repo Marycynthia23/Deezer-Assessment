@@ -32,21 +32,28 @@
 .Card {
     /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
     transition: 0.3s;
-    width: 200px;
+    width: 150px;
   }
   .Card img{
       width: 100%;
   }
-  .Card:hover {
+  /* .Card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
+  } */
   .Text{
     color:#39383D;
     text-align: center;
     padding: 2px 16px;
 
   }
-  h5{
+  h6{
       margin: auto;
       text-align: center;
   }
+  @media screen and (max-width: 420px){
+    .CardContainer{
+      flex-wrap: wrap;
+    
+    }
+    
+}

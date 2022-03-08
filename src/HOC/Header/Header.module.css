@@ -9,22 +9,18 @@
   width: 100%;
   background-color: #FCB5A8
   }
-  .NavbarCont img{
-    width: 200px;
-    height: 50px;
-  }
   .HeaderText{
     line-height: 16px;
     color: #fff;
     padding-right: 50px;
   }
-  .HeaderText h3{
+  .HeaderText h3, .HeaderTextMobile h3{
     line-height: 16px;
     color: #fff;
     font-size: 32px;
     font-weight: 600;
   }
-  .HeaderText p{
+  .HeaderText p, .HeaderTextMobile p{
     line-height: 16px;
     color: #fff;
     font-size: 22px;   
@@ -36,4 +32,22 @@
   }
   .Moon{
     color: #39383D;
+  }
+  .HeaderTextMobile{
+    display:none;
+    line-height: 16px;
+    color: #fff;
+    padding-right: 50px;
+  }
+
+  @media screen and (max-width: 400px){
+    .NavbarCont{
+      background: none;
+      background-color: #FCB5A8;
+      justify-content: flex-start;
+      left: 20%;
+    }
+    .NavbarCont img{
+      display: none;
+    }
   }

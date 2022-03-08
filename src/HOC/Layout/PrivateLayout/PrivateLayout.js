@@ -19,11 +19,6 @@ export const PrivateLayout = (props) =>{
             <SideBar />
           </aside>
           <main class={styles.PageContent}>
-            {/* <div className={styles.PageHeaderCont}>
-              {/* <div className={styles.PageHeader}>
-                {/* <h1 className={styles.PageTitle}>{props.pageTitle}</h1> */}
-              {/* </div> */}
-            {/* </div> */} 
             <div className={styles.Body}>
               <GetPageContent />
             </div>

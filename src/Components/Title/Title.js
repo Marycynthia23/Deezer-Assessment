@@ -1,5 +1,4 @@
 import styles from './Title.module.css'
-import picture from '../../Images/woman.png';
 
 
 export const Title = () => (

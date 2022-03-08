@@ -1,5 +1,4 @@
 import styles from "./Header.module.css";
-// import picture from "../../Images/musicgirl.png"
 
 
 export const Header = () => { 
@@ -8,10 +7,10 @@ export const Header = () => {
 
  return(
   <div className={styles.NavbarCont}>
-  <div></div>
+  {/* <img/> */}
   <div className={styles.HeaderText}>
     <h3>Your favorite tunes</h3>
-    <p>All<span className={styles.Sun}><i class="fas fa-sun"></i></span>and all<span className={styles.Moon}><i class="fas fa-moon"></i></span></p>
+    <p>All<span className={styles.Sun}><i className="fas fa-sun"></i></span>and all<span className={styles.Moon}><i className="fas fa-moon"></i></span></p>
   </div>
 </div>
  )

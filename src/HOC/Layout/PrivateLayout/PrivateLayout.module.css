@@ -5,6 +5,7 @@
     display: flex;
     background: #ededed;
     min-height: 700px;
+    /* overflow: hidden; */
   }
   .SidebarCont {
     flex: 3;
@@ -14,6 +15,7 @@
   .PageContent {
     flex: 9;
     padding: 0px 0px;
+    left: 20%;
   }
   
   .PageEmptyPlaceholder {
@@ -47,5 +49,7 @@
     padding: 30px 30px;
   }
   @media screen and (max-width: 420px){
-    
+    .Body {
+      padding: 30px 30px;
+    }
   }

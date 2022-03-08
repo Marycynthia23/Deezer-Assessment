@@ -40,5 +40,23 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script src="https://e-cdn-files.dzcdn.net/js/min/dz.js"></script>
+    <script>
+      DZ.init({
+          appId: 'YOUR_APP_ID',
+          channelUrl: 'http://api.deezer.com/chart/channel.html',
+          player: {
+              onload: function () { 
+                  //configure the player with a set of tracks
+                  //autoplay set to false
+                  DZ.player.playAlbum(2962681, false);
+
+                  //DZ.player.playPlaylist(484767873);
+                  //DZ.player.playTracks(['68973465']);
+              }
+          }
+      });
+
+  </script>
   </body>
 </html>

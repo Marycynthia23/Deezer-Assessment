@@ -10,9 +10,16 @@
 }
 .Line{
     width: 50%;
-    background-color: 5px solid #000;
-}
+    background-color: 5px solid #CECEDC;
+} 
 .ArrowLeft,
 .ArrowRight{
    color: #CECEDC;
+}
+@media screen and (max-width: 420px){
+    .SubTitles h3{
+        font-size: 16px;
+    
+    }
+    
 }

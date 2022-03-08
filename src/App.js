@@ -14,9 +14,7 @@ function App() {
      
       <BrowserRouter>
       <Switch>
-        <Route path="/">
-       <Discover/> 
-        </Route>
+        
         <Route path="/search">
        <Search/> 
         </Route>
@@ -31,6 +29,9 @@ function App() {
         </Route>
         <Route path="/musicpreview">
        <MusicPreview/> 
+        </Route>
+        <Route exact path="/">
+       <Discover/> 
         </Route>
       </Switch>
       </BrowserRouter>
